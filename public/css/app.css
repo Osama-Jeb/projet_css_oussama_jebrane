@@ -14849,4 +14849,9 @@ footer div .tags-text * {
   margin: 5px;
 }
 
+.last {
+  background-color: #C42D40;
+  height: 12vh;
+}
+
 /*# sourceMappingURL=app.css.map */
