@@ -14761,6 +14761,7 @@ main .menu {
 }
 main .menu .menu-paper {
   height: auto;
+  background-color: #fff;
 }
 main .menu .menu-paper h1, main .menu .menu-paper .h1 {
   font-family: "courgette";
@@ -14769,10 +14770,6 @@ main .menu .menu-paper .form-bg-img {
   background-image: url(../img/book_table_bg.jpg);
   height: auto;
   background-size: cover;
-}
-main .menu .menu-paper .container .card img {
-  height: 250px;
-  width: 100%;
 }
 main .chefs {
   margin-top: 20px;

@@ -40,9 +40,10 @@ main {
     .menu {
         background-image: url(../img/main_bg.jpg);
         height: auto;
-
+        
         .menu-paper {
             height: auto;
+            background-color: #fff;
 
             h1 {
                 font-family: "courgette";
@@ -54,14 +55,6 @@ main {
                 background-size: cover;
             }
 
-            .container {
-                .card {
-                    img {
-                        height: 250px;
-                        width: 100%;
-                    }
-                }
-            }
         }
     }
 
