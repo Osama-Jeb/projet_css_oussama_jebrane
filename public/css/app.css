@@ -14782,6 +14782,13 @@ main .chefs {
 main .chefs .chefs-text {
   font-family: "courgette";
 }
+main .testimonials {
+  background-image: url(../img/testimonials_background.jpg);
+  height: auto;
+}
+main .testimonials h1, main .testimonials .h1 {
+  font-family: "courgette";
+}
 
 .big-text {
   font-size: 4rem;
