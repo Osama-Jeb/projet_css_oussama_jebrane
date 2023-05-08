@@ -1,0 +1,18 @@
+footer {
+    background-image: url(../img/footer_background.jpg);
+    height: auto;
+
+    div {
+        width: 33%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+
+        .tags-text {
+            * {
+                margin: 5px;
+            }
+        }
+    }
+}

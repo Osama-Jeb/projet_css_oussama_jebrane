@@ -14833,4 +14833,20 @@ input {
   border-radius: 15px;
 }
 
+footer {
+  background-image: url(../img/footer_background.jpg);
+  height: auto;
+}
+footer div {
+  width: 33%;
+}
+@media (max-width: 768px) {
+  footer div {
+    width: 100%;
+  }
+}
+footer div .tags-text * {
+  margin: 5px;
+}
+
 /*# sourceMappingURL=app.css.map */
