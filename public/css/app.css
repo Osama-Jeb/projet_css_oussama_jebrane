@@ -14789,6 +14789,21 @@ main .testimonials {
 main .testimonials h1, main .testimonials .h1 {
   font-family: "courgette";
 }
+main .contact {
+  background-image: url(../img/main_bg.jpg);
+  height: auto;
+}
+main .contact .title {
+  font-family: "courgette";
+}
+main .contact .contact-info {
+  width: 30%;
+}
+@media (max-width: 768px) {
+  main .contact .contact-info {
+    width: 80%;
+  }
+}
 
 .big-text {
   font-size: 4rem;

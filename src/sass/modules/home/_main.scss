@@ -40,7 +40,7 @@ main {
     .menu {
         background-image: url(../img/main_bg.jpg);
         height: auto;
-        
+
         .menu-paper {
             height: auto;
             background-color: #fff;
@@ -71,11 +71,30 @@ main {
         }
     }
 
-    .testimonials{
+    .testimonials {
         background-image: url(../img/testimonials_background.jpg);
         height: auto;
-        h1{
+
+        h1 {
             font-family: "courgette";
+        }
+    }
+
+    .contact {
+        background-image: url(../img/main_bg.jpg);
+        height: auto;
+
+        .title {
+            font-family: "courgette";
+        }
+
+        .contact-info {
+            width: 30%;
+
+            @media (max-width: 768px) {
+                width: 80%;
+            }
+
         }
     }
 }
