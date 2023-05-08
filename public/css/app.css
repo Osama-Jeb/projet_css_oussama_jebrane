@@ -14760,6 +14760,17 @@ main .bg-img .banner-content .banner-btn {
 main .bg-img .banner-content .banner-btn button {
   padding: 10px;
 }
+main .chefs {
+  margin-top: 20px;
+  background-image: url(../img/team_background.jpg);
+  height: auto;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.69);
+}
+main .chefs .chefs-text {
+  font-family: "courgette";
+}
 
 .big-text {
   font-size: 4rem;
