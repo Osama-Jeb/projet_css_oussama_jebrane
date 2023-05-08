@@ -14684,6 +14684,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "courgette";
+  src: url(../../public/fonts/Courgette-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../../public/fonts/Roboto-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -14725,6 +14733,41 @@ main .bg-img {
   background-repeat: no-repeat;
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .bg-img .banner-content {
+  width: 50%;
+  font-family: "courgette";
+  text-align: center;
+}
+main .bg-img .banner-content .banner-text {
+  color: white;
+}
+@media (max-width: 768px) {
+  main .bg-img .banner-content .banner-text {
+    font-size: 2rem;
+    margin-top: 4rem;
+  }
+}
+main .bg-img .banner-content .banner-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .bg-img .banner-content .banner-btn button {
+  padding: 10px;
+}
+
+.big-text {
+  font-size: 4rem;
+}
+@media (max-width: 768px) {
+  .big-text {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
