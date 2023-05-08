@@ -14757,10 +14757,10 @@ main .bg-img .banner-content .banner-btn button {
 }
 main .menu {
   background-image: url(../img/main_bg.jpg);
-  height: 100vh;
+  height: auto;
 }
 main .menu .menu-paper {
-  height: 100%;
+  height: auto;
 }
 main .menu .menu-paper h1, main .menu .menu-paper .h1 {
   font-family: "courgette";
@@ -14769,6 +14769,10 @@ main .menu .menu-paper .form-bg-img {
   background-image: url(../img/book_table_bg.jpg);
   height: auto;
   background-size: cover;
+}
+main .menu .menu-paper .container .card img {
+  height: 250px;
+  width: 100%;
 }
 main .chefs {
   margin-top: 20px;
@@ -14793,6 +14797,21 @@ main .chefs .chefs-text {
 
 input {
   padding: 12px;
+}
+
+.card-comment {
+  background-color: #C42D40;
+  padding: 20px;
+  color: white;
+  display: block;
+  width: 90%;
+  border-radius: 15px;
+}
+
+[src="./public/img/blog_img2.jpg"],
+[src="./public/img/blog_img1.jpg"] {
+  border: 5px solid rgb(175, 175, 175);
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=app.css.map */

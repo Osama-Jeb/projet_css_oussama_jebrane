@@ -39,20 +39,29 @@ main {
 
     .menu {
         background-image: url(../img/main_bg.jpg);
-        height: 100vh;
+        height: auto;
 
         .menu-paper {
-            height: 100%; 
+            height: auto;
 
             h1 {
                 font-family: "courgette";
             }
-            .form-bg-img{
+
+            .form-bg-img {
                 background-image: url(../img/book_table_bg.jpg);
                 height: auto;
                 background-size: cover;
             }
-            
+
+            .container {
+                .card {
+                    img {
+                        height: 250px;
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
 
@@ -78,6 +87,21 @@ main {
     }
 }
 
-input{
+input {
     padding: 12px;
+}
+
+.card-comment {
+    background-color: $chef-red;
+    padding: 20px;
+    color: white;
+    display: block;
+    width: 90%;
+    border-radius: 15px;
+}
+
+[src="./public/img/blog_img2.jpg"],
+[src="./public/img/blog_img1.jpg"] {
+    border: 5px solid rgb(175, 175, 175);
+    border-radius: 15px;
 }
