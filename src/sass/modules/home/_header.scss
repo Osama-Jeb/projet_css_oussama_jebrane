@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+            border-top: solid 1px white;
+            border-bottom: solid 1px white;
+
+            li {
+                padding: 10px 0px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px;
+                }
+
+                a:hover {
+                    color: white;
+                }
+            }
+
+            li:hover {
+                background-color: $chef-red;
+                padding: 10px;
+            }
+        }
+    }
+}
