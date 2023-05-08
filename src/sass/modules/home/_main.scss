@@ -37,25 +37,34 @@ main {
         }
     }
 
-    .menu{
+    .menu {
         background-image: url(../img/main_bg.jpg);
         height: 100vh;
-        .menu-paper{
-            height: 100%;
-            h1{
+
+        .menu-paper {
+            height: 100%; 
+
+            h1 {
                 font-family: "courgette";
             }
+            .form-bg-img{
+                background-image: url(../img/book_table_bg.jpg);
+                height: auto;
+                background-size: cover;
+            }
+            
         }
     }
 
-    .chefs{
+    .chefs {
         margin-top: 20px;
         background-image: url(../img/team_background.jpg);
         height: auto;
         background-position: center;
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.69);
-        .chefs-text{
+
+        .chefs-text {
             font-family: "courgette";
         }
     }
@@ -67,4 +76,8 @@ main {
     @media (max-width: 768px) {
         font-size: 2rem;
     }
+}
+
+input{
+    padding: 12px;
 }

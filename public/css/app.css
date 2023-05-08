@@ -14692,11 +14692,6 @@ textarea.form-control-lg {
   font-family: "roboto";
   src: url(../../public/fonts/Roboto-Regular.ttf);
 }
-* {
-  padding: 0;
-  margin: 0;
-}
-
 header {
   position: absolute;
   width: 100%;
@@ -14770,6 +14765,11 @@ main .menu .menu-paper {
 main .menu .menu-paper h1, main .menu .menu-paper .h1 {
   font-family: "courgette";
 }
+main .menu .menu-paper .form-bg-img {
+  background-image: url(../img/book_table_bg.jpg);
+  height: auto;
+  background-size: cover;
+}
 main .chefs {
   margin-top: 20px;
   background-image: url(../img/team_background.jpg);
@@ -14789,6 +14789,10 @@ main .chefs .chefs-text {
   .big-text {
     font-size: 2rem;
   }
+}
+
+input {
+  padding: 12px;
 }
 
 /*# sourceMappingURL=app.css.map */
