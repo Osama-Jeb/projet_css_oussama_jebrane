@@ -37,6 +37,17 @@ main {
         }
     }
 
+    .menu{
+        background-image: url(../img/main_bg.jpg);
+        height: 100vh;
+        .menu-paper{
+            height: 100%;
+            h1{
+                font-family: "courgette";
+            }
+        }
+    }
+
     .chefs{
         margin-top: 20px;
         background-image: url(../img/team_background.jpg);
