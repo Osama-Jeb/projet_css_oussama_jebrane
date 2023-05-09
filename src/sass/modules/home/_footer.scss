@@ -1,6 +1,17 @@
+.footer-deco{
+    background-image: url(../img/footer_bottom_decoration_img.png);
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: center;
+    z-index: 1031;
+}
 footer {
     background-image: url(../img/footer_background.jpg);
     height: auto;
+    background-attachment: fixed;
 
     div {
         width: 33%;

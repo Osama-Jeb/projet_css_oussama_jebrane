@@ -107,6 +107,16 @@ main {
     }
 }
 
+.bottom-deco{
+    background-image: url(../img/bottom_decoration_img.png);
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
 input {
     padding: 12px;
 }
