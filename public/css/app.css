@@ -14696,6 +14696,9 @@ header {
   position: absolute;
   width: 100%;
 }
+header nav {
+  font-family: "roboto";
+}
 header nav ul {
   list-style: none;
   display: flex;
@@ -14817,7 +14820,7 @@ main .contact .contact-info {
   background-image: url(../img/bottom_decoration_img.png);
   height: 20px;
   position: absolute;
-  bottom: 0px;
+  bottom: -5px;
   width: 100%;
   background-repeat: repeat-x;
   background-position: center;
@@ -14846,7 +14849,7 @@ input {
   background-image: url(../img/footer_bottom_decoration_img.png);
   height: 20px;
   position: absolute;
-  top: 0px;
+  top: -5px;
   width: 100%;
   background-repeat: repeat-x;
   background-position: center;
@@ -14857,17 +14860,6 @@ footer {
   background-image: url(../img/footer_background.jpg);
   height: auto;
   background-attachment: fixed;
-}
-footer div {
-  width: 33%;
-}
-@media (max-width: 768px) {
-  footer div {
-    width: 100%;
-  }
-}
-footer div .tags-text * {
-  margin: 5px;
 }
 
 .last {

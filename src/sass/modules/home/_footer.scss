@@ -2,7 +2,7 @@
     background-image: url(../img/footer_bottom_decoration_img.png);
     height: 20px;
     position: absolute;
-    top: 0px;
+    top: -5px;
     width: 100%;
     background-repeat: repeat-x;
     background-position: center;
@@ -13,19 +13,6 @@ footer {
     height: auto;
     background-attachment: fixed;
 
-    div {
-        width: 33%;
-
-        @media (max-width: 768px) {
-            width: 100%;
-        }
-
-        .tags-text {
-            * {
-                margin: 5px;
-            }
-        }
-    }
 }
 
 .last{

@@ -6,6 +6,7 @@ main {
         background-repeat: no-repeat;
         background-blend-mode: darken;
         background-color: rgba(0, 0, 0, 0.69);
+        // To center the banner content
         display: flex;
         justify-content: center;
         align-items: center;
@@ -111,7 +112,7 @@ main {
     background-image: url(../img/bottom_decoration_img.png);
     height: 20px;
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     width: 100%;
     background-repeat: repeat-x;
     background-position: center;
