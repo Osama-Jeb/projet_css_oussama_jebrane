@@ -67,22 +67,26 @@
         <!--? Tab List -->
         <div class="menu p-1">
             <div class="menu-paper p-0 container">
-                <!-- Top Coreners -->
-                <img src="./public/img/box-left-top.png" class="float-start" alt="">
-                <img src="./public/img/box-right-top.png" class="float-end" alt="">
-                <!-- Story -->
-                <div class="text-center d-flex flex-column align-items-center mt-2">
-                    <h1 class=" mt-2"><span class="text-chef-red">OUR</span> Story</h1>
-                    <img src="./public/img/decoration_line.png" width="50%" alt="">
+                <!-- Top Corners -->
+                <div class="d-md-flex justify-content-between align-items-center mt-2">
+                    <img src="./public//img/box-left-top.png" class="d-none d-md-block float-start" alt="">
+                    <div class="text-center d-flex flex-column align-items-center mt-2">
+                        <h1 class=" mt-2"><span class="text-chef-red">OUR</span> Story</h1>
+                        <img src="./public/img/decoration_line.png" width="50%" alt="">
+                    </div>
+                    <img src="./public/img/box-right-top.png" class="d-none d-md-block float-end" alt="">
                 </div>
+                <!-- Story -->
 
-                <div class="container text-center d-flex flex-column justify-content-center m-0">
-                    <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <div class="container text-center flex-column d-flex align-items-center justify-content-center m-0">
+                    <p class="mt-2 w-50 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Exercitationem explicabo ipsam, modi
-                        corporis quam sapiente dicta labore at voluptatem, enim, dolore nemo. Magnam sequi excepturi
-                        cumque quos autem reprehenderit dolore.
-                        Est rem, voluptate nemo quasi possimus animi id harum ipsam similique aspernatur? Officia quis
                         quaerat ipsam.</p>
+                        <p class="d-none d-md-block w-50">
+                            corporis quam sapiente dicta labore at voluptatem, enim, dolore nemo. Magnam sequi excepturi
+                            cumque quos autem reprehenderit dolore.
+                            Est rem, voluptate nemo quasi possimus animi id harum ipsam similique aspernatur? Officia quis    
+                        </p>
                 </div>
                 <!-- Tab list -->
 
@@ -91,543 +95,544 @@
                     <img src="./public/img/decoration_line.png" width="50%" alt="">
                 </div>
                 <br>
-                <div class="row tab-section">
-                    <div class="col-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="p-1 list-group-item list-group-item-action active fs-3 d-flex flex-column align-items-center gap-1"
-                                id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab"
-                                aria-controls="list-home">
-                                <div>
-                                    <i class="fa-solid fa-mug-hot fa-2xl"></i>
-                                </div>
-                                <p>Breakfast</p>
-                            </a>
-                            <a class="list-group-item list-group-item-action fs-3 d-flex flex-column align-items-center gap-1 p-1 "
-                                id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab"
-                                aria-controls="list-profile">
-                                <div>
-                                    <i class="fa-solid fa-burger fa-2xl"></i>
-                                </div>
-                                <p>Lunch</p>
-                            </a>
-                            <a class="list-group-item list-group-item-action fs-3 d-flex flex-column align-items-center gap-1 p-1"
-                                id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab"
-                                aria-controls="list-messages">
-                                <div>
-                                    <i class="fa-solid fa-bell-concierge fa-2xl"></i>
-                                </div>
-                                <p>Snack</p>
-                            </a>
-                            <a class="list-group-item list-group-item-action fs-3 d-flex flex-column align-items-center gap-1 p-1"
-                                id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab"
-                                aria-controls="list-settings">
-                                <div>
-                                    <i class="fa-solid fa-mug-hot fa-2xl"></i>
-                                </div>
-                                <p>Dinner</p>
-                            </a>
+                <div class="container-fluid p-1">
+                    <div class="row tab-section">
+                        <div class="col-4">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="p-1 list-group-item list-group-item-action active fs-3 d-flex flex-column align-items-center gap-1"
+                                    id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab"
+                                    aria-controls="list-home">
+                                    <div>
+                                        <i class="fa-solid fa-mug-hot fa-2xl"></i>
+                                    </div>
+                                    <p>Break</p>
+                                </a>
+                                <a class="list-group-item list-group-item-action fs-3 d-flex flex-column align-items-center gap-1 p-1 "
+                                    id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab"
+                                    aria-controls="list-profile">
+                                    <div>
+                                        <i class="fa-solid fa-burger fa-2xl"></i>
+                                    </div>
+                                    <p>Lunch</p>
+                                </a>
+                                <a class="list-group-item list-group-item-action fs-3 d-flex flex-column align-items-center gap-1 p-1"
+                                    id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab"
+                                    aria-controls="list-messages">
+                                    <div>
+                                        <i class="fa-solid fa-bell-concierge fa-2xl"></i>
+                                    </div>
+                                    <p>Snack</p>
+                                </a>
+                                <a class="list-group-item list-group-item-action fs-3 d-flex flex-column align-items-center gap-1 p-1"
+                                    id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab"
+                                    aria-controls="list-settings">
+                                    <div>
+                                        <i class="fa-solid fa-mug-hot fa-2xl"></i>
+                                    </div>
+                                    <p>Dinner</p>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-8">
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                                aria-labelledby="list-home-list">
-                                <!--~ Breakfast thingy -->
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
+                        <div class="col-8">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                    aria-labelledby="list-home-list">
+                                    <!--~ Breakfast thingy -->
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
+                                    <br>
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_1.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <br>
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                                    aria-labelledby="list-profile-list">
+                                    <!--~ Lunch thingy  -->
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
+                                    <br>
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_2.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
+                                <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                    aria-labelledby="list-messages-list">
+                                    <!--~ Snack thingy -->
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
+                                    <br>
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_3.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
+                                <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                                    aria-labelledby="list-settings-list">
+                                    <!--~ Dinner thingy -->
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
 
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_1.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                                aria-labelledby="list-profile-list">
-                                <!--~ Lunch thingy  -->
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
 
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
+                                    <br>
 
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
+                                    <div class="row d-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
 
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
 
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
+                                    <br>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div>
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                <p class="d-none d-md-block">Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.</p>
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
+                                        </div>
 
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_2.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="list-messages" role="tabpanel"
-                                aria-labelledby="list-messages-list">
-                                <!--~ Snack thingy -->
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_3.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="list-settings" role="tabpanel"
-                                aria-labelledby="list-settings-list">
-                                <!--~ Dinner thingy -->
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-flex gap-3">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row d-none d-lg-flex">
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
-                                        </div>
-                                    </div>
-
-                                    <div class="col d-flex align-items-center gap-1">
-                                        <img src="./public/img/menu_image_4.jpg"
-                                            class="border border-3 border-secondary rounded-circle" height="100px"
-                                            width="100px" alt="">
-                                        <div class="d-none d-md-block">
-                                            <p><b>Lorem ipsum dolor sit</b></p>
-
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa.
-                                        </div>
-                                        <div
-                                            class="bg-light text-chef-red d-flex align-items-center justify-content-center">
-                                            25$
+                                        <div class="col d-flex flex-column flex-lg-row text-center text-lg-start align-items-center">
+                                            <img src="./public/img/menu_image_4.jpg"
+                                                class="border border-3 border-secondary rounded-circle" height="100px"
+                                                width="100px" alt="">
+                                                <div class="d-none d-md-block">
+                                                <p><b>Lorem ipsum dolor</b></p>
+                                                Lorem ipsum dolor, amet consectetur adipisicing elit. Ipsa.
+                                            </div>
+                                            <div
+                                                class="bg-light text-chef-red d-flex align-items-center justify-content-center fw-bold money">
+                                                25$
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -639,7 +644,7 @@
 
 
                 <!-- Bottom Corners -->
-                <div class="d-flex justify-content-between align-items-center mt-2">
+                <div class="d-none d-md-flex justify-content-between align-items-center mt-2">
                     <img src="./public//img/box-bottom-left.png" class="float-start" alt="">
                     <img src="./public/img/box-bottom_right.png" class="float-end" alt="">
                 </div>
@@ -682,13 +687,14 @@
         <div class="menu p-1 mt-3">
             <div class="menu-paper container p-0">
                 <!-- Top Coreners -->
-                <img src="./public/img/box-left-top-grey.png" class="float-start" alt="">
-                <img src="./public/img/box-right-top-grey.png" class="float-end" alt="">
 
-                <!-- Book -->
-                <div class="text-center d-flex flex-column align-items-center m-0">
-                    <h1 class=" mt-2"><span class="text-chef-red">BOOK</span> Your Table</h1>
-                    <img src="./public/img/decoration_line.png" width="50%" alt="">
+                <div class="d-md-flex justify-content-between align-items-center mt-2">
+                    <img src="./public//img/box-left-top-grey.png" class="d-none d-md-block float-start" alt="">
+                    <div class="text-center d-flex flex-column align-items-center mt-2">
+                        <h1 class=" mt-2"><span class="text-chef-red">BOOK</span> Your Table</h1>
+                        <img src="./public/img/decoration_line.png" width="50%" alt="">
+                    </div>
+                    <img src="./public/img/box-right-top-grey.png" class="d-none d-md-block float-end" alt="">
                 </div>
 
                 <!-- Form -->
@@ -773,8 +779,8 @@
                                 Lorem ipsum dolor sit.
                             </p>
                             <br> <br>
-                            <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 class="card-title fw-bold text-center text-md-start">Lorem, ipsum.</h5>
+                            <p class="card-text text-center text-md-start">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                         </div>
                     </div>
@@ -787,8 +793,8 @@
                                 Lorem ipsum dolor sit.
                             </div>
                             <br> <br>
-                            <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 class="card-title fw-bold text-center text-md-start">Lorem, ipsum.</h5>
+                            <p class="card-text text-center text-md-start">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                         </div>
                     </div>
@@ -796,10 +802,12 @@
 
 
                 <!-- Blog button -->
-                <!-- Bottom Corners -->
-                <div class="d-flex justify-content-between align-items-center mt-2">
-                    <img src="./public//img/box-bottom-left-grey.png" class="float-start" alt="">
+                <div class="d-flex w-100 justify-content-center mt-2">
                     <button class="btn btn-chef-red px-1 rounded-pill">Know More</button>
+                </div>
+                <!-- Bottom Corners -->
+                <div class="d-none d-md-flex justify-content-between align-items-center mt-2">
+                    <img src="./public//img/box-bottom-left-grey.png" class="float-start" alt="">
                     <img src="./public/img/box-bottom_right-grey.png" class="float-end" alt="">
                 </div>
             </div>
@@ -820,14 +828,14 @@
                 <div class="d-flex flex-column flex-md-row gap-3 align-items-center">
                     <img src="./public/img/testimonial1.jpg" height="150px" width="150px"
                         class="border border-5 border-secondary rounded-circle" alt="">
-                    <div class="border border-2 border-secondary rounded text-white p-1">
+                    <div class="border border-2 border-secondary rounded text-white p-1 text-center text-md-start">
                         <p><b>Lorem ipsum dolor</b></p>
                         <p class="text-chef-red">Manager</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos numquam rem eius at.</p>
                     </div>
                 </div>
                 <div class="d-flex flex-column-reverse flex-md-row gap-3 align-items-center">
-                    <div class="border border-2 border-secondary rounded text-white p-1">
+                    <div class="border border-2 border-secondary rounded text-white p-1 text-center text-md-start">
                         <p><b>Lorem ipsum dolor</b></p>
                         <p class="text-chef-red">Manager</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos numquam rem eius at.</p>
@@ -853,12 +861,12 @@
                 <i class="fa-solid fa-location-dot fa-xl"></i>
                 <br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, similique!</p>
-                <p>__________________________________</p>
+                <hr>
                 <br>
                 <i class="fa-solid fa-phone fa-2xl"></i>
                 <br>
                 <b>+91-1234567890</b>
-                <p>__________________________________</p>
+                <hr>
                 <br>
                 <i class="fa-solid fa-envelope fa-2xl"></i>
                 <br>
@@ -903,7 +911,7 @@
         <div class="col mt-1">
             <!-- Instagram -->
             <h3>INSTAGRAM</h3>
-            <div class="d-flex justify-content-evenly d-md-block gap-2">
+            <div class="d-flex justify-content-center align-items-center d-md-block gap-test">
                 <!-- four icons -->
                 <div class="d-flex flex-column flex-md-row gap-1">
                     <img src="./public/img/instragram_gallery_img1.jpg" alt="">

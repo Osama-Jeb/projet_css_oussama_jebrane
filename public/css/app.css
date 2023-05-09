@@ -14736,10 +14736,10 @@ main .bg-img {
 }
 main .bg-img .banner-content {
   width: 50%;
-  font-family: "courgette";
   text-align: center;
 }
 main .bg-img .banner-content .banner-text {
+  font-family: "courgette";
   color: white;
 }
 @media (max-width: 768px) {
@@ -14753,6 +14753,7 @@ main .bg-img .banner-content .banner-btn {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  font-family: "roboto";
 }
 main .bg-img .banner-content .banner-btn button {
   padding: 10px;
@@ -14771,7 +14772,7 @@ main .menu .menu-paper h1, main .menu .menu-paper .h1 {
 main .menu .menu-paper .tab-section div .list-group .active {
   background-color: white;
   color: #2b2b2b;
-  border: none;
+  border: 1px solid #C42D40;
   border-right: solid 7px #C42D40;
   padding: 0;
   color: #C42D40;
@@ -14788,6 +14789,9 @@ main .chefs {
   background-position: center;
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.69);
+}
+main .chefs .chef img {
+  border-bottom: 2px solid gray;
 }
 main .chefs .chefs-text {
   font-family: "courgette";
@@ -14853,6 +14857,16 @@ input {
   border-radius: 15px;
 }
 
+hr {
+  width: 90%;
+  background-color: #ffffff;
+  height: 2px;
+}
+
+.money {
+  padding: 4px;
+}
+
 .footer-deco {
   background-image: url(../img/footer_bottom_decoration_img.png);
   height: 20px;
@@ -14873,6 +14887,14 @@ footer {
 .last {
   background-color: #C42D40;
   height: 12vh;
+}
+
+.tags-text button {
+  margin: 4px;
+}
+
+.gap-test {
+  gap: 5px;
 }
 
 /*# sourceMappingURL=app.css.map */

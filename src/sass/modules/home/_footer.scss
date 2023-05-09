@@ -1,4 +1,4 @@
-.footer-deco{
+.footer-deco {
     background-image: url(../img/footer_bottom_decoration_img.png);
     height: 20px;
     position: absolute;
@@ -8,6 +8,7 @@
     background-position: center;
     z-index: 1031;
 }
+
 footer {
     background-image: url(../img/footer_background.jpg);
     height: auto;
@@ -15,7 +16,17 @@ footer {
 
 }
 
-.last{
+.last {
     background-color: $chef-red;
     height: 12vh;
+}
+
+.tags-text {
+    button {
+        margin: 4px;
+    }
+}
+
+.gap-test {
+    gap: 5px;
 }
