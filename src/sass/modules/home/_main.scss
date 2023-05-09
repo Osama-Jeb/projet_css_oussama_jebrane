@@ -50,6 +50,21 @@ main {
                 font-family: "courgette";
             }
 
+            .tab-section {
+                div {
+                    .list-group {
+                        .active {
+                            background-color: white;
+                            color: #2b2b2b;
+                            border: none;
+                            border-right: solid 7px $chef-red;
+                            padding: 0;
+                        }
+
+                    }
+                }
+            }
+
             .form-bg-img {
                 background-image: url(../img/book_table_bg.jpg);
                 height: auto;
@@ -108,7 +123,7 @@ main {
     }
 }
 
-.bottom-deco{
+.bottom-deco {
     background-image: url(../img/bottom_decoration_img.png);
     height: 20px;
     position: absolute;
