@@ -14774,6 +14774,7 @@ main .menu .menu-paper .tab-section div .list-group .active {
   border: none;
   border-right: solid 7px #C42D40;
   padding: 0;
+  color: #C42D40;
 }
 main .menu .menu-paper .form-bg-img {
   background-image: url(../img/book_table_bg.jpg);
