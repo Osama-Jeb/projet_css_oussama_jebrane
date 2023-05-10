@@ -14749,14 +14749,14 @@ main .bg-img .banner-content .banner-text {
   }
 }
 main .bg-img .banner-content .banner-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   font-family: "roboto";
 }
 main .bg-img .banner-content .banner-btn button {
   padding: 10px;
+}
+main .bg-img .banner-content .banner-btn .learn {
+  padding-inline: 25px;
 }
 main .menu {
   background-image: url(../img/main_bg.jpg);

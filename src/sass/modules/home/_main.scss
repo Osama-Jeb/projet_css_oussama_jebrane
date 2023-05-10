@@ -26,14 +26,15 @@ main {
             }
 
             .banner-btn {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 gap: 10px;
                 font-family: "roboto";
 
                 button {
                     padding: 10px;
+                }
+
+                .learn {
+                    padding-inline: 25px;
                 }
             }
         }
